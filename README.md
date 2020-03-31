@@ -17,7 +17,7 @@ Libraries are independent of each other.
 
 ### Mp3StreamTitle
 
-```
+```php
 <?php
 
 require_once('Mp3StreamTitle/Mp3StreamTitle.php');
@@ -34,7 +34,7 @@ echo $stream_title;
 
 ### Radio101RuTitle
 
-```
+```php
 <?php
 
 require_once('Mp3StreamTitle/Radio101RuTitle.php');
