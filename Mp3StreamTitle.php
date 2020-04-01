@@ -189,7 +189,7 @@ class Mp3StreamTitle
                         $meta_length = ord(substr($data, $offset, 1)) * 16;
 
                         // Get metadata in the following format "StreamTitle='artist name and song name';".
-                  		  $metadata = substr($data, $offset, $meta_length);
+                        $metadata = substr($data, $offset, $meta_length);
 
                         // Interrupt receiving data (with an error "curl_errno: 23").
                         return -1;
