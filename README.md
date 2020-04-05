@@ -65,3 +65,8 @@ This project is licensed under the Apache License, Version 2.0 - see the [LICENS
 
 * I want to thank [Francesco Casula](https://github.com/fracasula) for his [code](https://gist.github.com/fracasula/5781710) that inspired me to create these PHP libraries.
 
+## Buy me a coffee
+
+<a href="https://www.buymeacoffee.com/kondeveloper" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+
+If you like these libraries, please consider buying me coffee. :relaxed:
