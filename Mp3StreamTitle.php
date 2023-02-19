@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright 2020 Oleg Kovalenko
+ * Copyright 2020 Oleh Kovalenko
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -213,6 +213,7 @@ class Mp3StreamTitle
                 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
                 curl_setopt($ch, CURLOPT_TIMEOUT, 30);
                 curl_setopt($ch, CURLOPT_HTTPHEADER, ['icy-metadata: 1']);
+                curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
                 curl_setopt($ch, CURLOPT_USERAGENT, $this->user_agent);
                 curl_setopt($ch, CURLOPT_WRITEFUNCTION, $write_function);
 

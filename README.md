@@ -53,7 +53,7 @@ echo $stream_title;
 
 ## Authors
 
-* **Oleg Kovalenko** - *Owner/Maintainer* - [KO-N](https://github.com/KO-N)
+* **Oleh Kovalenko** - *Owner/Maintainer* - [KO-N](https://github.com/KO-N)
 
 See also the list of [contributors](https://github.com/KO-N/mp3streamtitle/contributors) who participated in this project.
 
